@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="item-1">
+        <img class="logo" src="./img/Logo.png" alt="imagen logo">
+    </header>
+    <section class="item-2">
+        <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
+        <div class="botones">
+            <div class="alertInfo">
+                <img class="alertIcon" src="/img/alert-svgrepo-com.svg" alt="icono de alerta">
+                <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+            </div>
+            <div class="btn">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        
+    </section>
+    <section class="item-3">
+        <div class="item-3__child">
+            <img class="img3" src="/img/Muñeco.png" alt="Muñeco">
+            <p class="bold"><b>Ningún mensaje fue encontrado</b></p>
+            <p class="parr">Ingresa el Texto que desees encriptar o desencriptar</p>
+            <textarea cols="20" rows="10" class="mensaje" ></textarea>
+            <button class="btn-copiar" onclick="btnCopiarAPI()">copiar</button>
+        </div>
+        
+    </section>
+    <!-- <footer>Copyright asbeljose.com</footer> -->
+    <script src="/script.js"></script>
+</body>
+</html>
